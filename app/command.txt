@@ -1,0 +1,17 @@
+1. To install ui package
+composer require laravel/ui
+2. Auth setup
+php artisan ui vue --auth 
+npm install 
+npm run dev
+
+Template
+------------------
+Now ui kit admin template
+getbootstarap.com
+
+create table 
+--------------
+php artisan make:migration create_users_table
+php artisan migrate
+php artisan make:model Users
